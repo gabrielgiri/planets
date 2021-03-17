@@ -57,11 +57,11 @@ function App() {
   return (
     <div className="App container mt-3">
 
-      <h1 className="display-5">Planest data using swapi.dev, React, Datatable and bootstrap</h1>
-      <p className="lead">Hello, my name is Gabriel. I live in Rosario, Argentina. I am a systems engineer, musician, photographer and filmmaker. Also love running and big fan of Rosario Central</p>
+      <h1 className="display-5">Planets data using swapi.dev, React, Datatable and bootstrap</h1>
+      <p className="lead bg-info p-4 text-white">Hello, my name is Gabriel. I live in Rosario, Argentina. I am a systems engineer, musician, photographer and filmmaker. Also love running and big fan of Rosario Central.</p>
       <h3>Search by Planet Name</h3>
       <div>
-        <input type="text" value={q} onChange={(e) => setQ(e.target.value)} /></div>
+        <input type="text" className="p-2" value={q} onChange={(e) => setQ(e.target.value)} /></div>
       <div className="table-responsive">
         <DataTable
           striped={true}
